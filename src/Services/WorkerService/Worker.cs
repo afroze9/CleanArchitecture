@@ -1,4 +1,4 @@
-namespace WorkerService;
+namespace CleanArchitecture.WorkerService;
 
 public class Worker : BackgroundService
 {

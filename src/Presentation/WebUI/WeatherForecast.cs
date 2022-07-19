@@ -1,4 +1,4 @@
-namespace WebUI;
+namespace CleanArchitecture.WebUI;
 
 public class WeatherForecast
 {

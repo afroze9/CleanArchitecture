@@ -8,4 +8,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Enums" />
+    <Folder Include="Common\Exceptions" />
+    <Folder Include="Common\Mappings" />
+    <Folder Include="Common\Models" />
+    <Folder Include="Projects\Commands" />
+    <Folder Include="Projects\EventHandlers" />
+    <Folder Include="Projects\Queries" />
+  </ItemGroup>
+
 </Project>
