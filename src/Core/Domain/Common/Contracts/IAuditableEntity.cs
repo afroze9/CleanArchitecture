@@ -2,7 +2,7 @@
 
 public interface IAuditableEntity
 {
-    string CreatedBy { get; set; }
+    string? CreatedBy { get; set; }
 
     DateTime CreatedOnUtc { get; set; }
 

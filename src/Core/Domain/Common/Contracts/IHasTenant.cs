@@ -2,4 +2,5 @@
 
 public interface IHasTenant
 {
+    Guid TenantId { get; set; }
 }

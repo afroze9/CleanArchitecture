@@ -1,5 +1,7 @@
-﻿namespace CleanArchitecture.Domain.Common.Events;
+﻿using CleanArchitecture.Common.Contracts;
 
-public class EntityCreatedEvent
+namespace CleanArchitecture.Domain.Common.Events;
+
+public class EntityCreatedEvent : IntegrationEvent
 {
 }

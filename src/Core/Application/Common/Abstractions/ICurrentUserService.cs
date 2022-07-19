@@ -2,4 +2,5 @@
 
 public interface ICurrentUserService
 {
+    string CurrentUserId { get; }
 }
