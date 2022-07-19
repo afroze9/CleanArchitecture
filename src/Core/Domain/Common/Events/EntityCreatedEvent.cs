@@ -1,7 +1,5 @@
-﻿namespace CleanArchitecture.Domain.Common.Events
+﻿namespace CleanArchitecture.Domain.Common.Events;
+
+public class EntityCreatedEvent
 {
-    public class EntityCreatedEvent
-    {
-        
-    }
 }

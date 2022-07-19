@@ -1,10 +1,7 @@
 using CleanArchitecture.WorkerService;
 
-IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices(services =>
-    {
-        services.AddHostedService<Worker>();
-    })
+var host = Host.CreateDefaultBuilder(args)
+    .ConfigureServices(services => { services.AddHostedService<Worker>(); })
     .Build();
 
 await host.RunAsync();

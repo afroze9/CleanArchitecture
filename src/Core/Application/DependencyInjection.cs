@@ -1,7 +1,5 @@
-﻿namespace CleanArchitecture.Application
+﻿namespace CleanArchitecture.Application;
+
+public class DependencyInjection
 {
-    public class DependencyInjection
-    {
-        
-    }
 }

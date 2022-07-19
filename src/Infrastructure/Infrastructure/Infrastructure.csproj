@@ -9,15 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions" />
-    <Folder Include="Common" />
-    <Folder Include="Configurations" />
-    <Folder Include="EventBus" />
-    <Folder Include="Persistence\Configurations" />
-    <Folder Include="Persistence\Extensions" />
-    <Folder Include="Persistence\Interceptors" />
-    <Folder Include="Persistence\Migrations" />
-    <Folder Include="Services" />
+    <Folder Include="Abstractions"/>
+    <Folder Include="Common"/>
+    <Folder Include="Configurations"/>
+    <Folder Include="EventBus"/>
+    <Folder Include="Persistence\Configurations"/>
+    <Folder Include="Persistence\Extensions"/>
+    <Folder Include="Persistence\Interceptors"/>
+    <Folder Include="Persistence\Migrations"/>
+    <Folder Include="Services"/>
   </ItemGroup>
 
 </Project>

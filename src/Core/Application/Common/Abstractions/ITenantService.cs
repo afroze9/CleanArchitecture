@@ -1,6 +1,5 @@
-﻿namespace CleanArchitecture.Application.Common.Abstractions
+﻿namespace CleanArchitecture.Application.Common.Abstractions;
+
+public interface ITenantService
 {
-    public interface ITenantService
-    {
-    }
 }

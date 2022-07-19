@@ -1,7 +1,5 @@
-﻿namespace CleanArchitecture.Domain.Common.Contracts
+﻿namespace CleanArchitecture.Domain.Common.Contracts;
+
+public class AuditableEntity
 {
-    public class AuditableEntity
-    {
-        
-    }
 }

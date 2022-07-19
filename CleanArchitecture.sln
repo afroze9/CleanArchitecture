@@ -34,9 +34,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{E26C7B55-131D-4DCA-81E2-BEA0ECB176FD}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		.editorconfig = .editorconfig
 		LICENSE = LICENSE
 		README.md = README.md
+		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
 Global

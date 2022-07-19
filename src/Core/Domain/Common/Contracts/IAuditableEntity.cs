@@ -1,7 +1,12 @@
-﻿namespace CleanArchitecture.Domain.Common.Contracts
+﻿namespace CleanArchitecture.Domain.Common.Contracts;
+
+public interface IAuditableEntity
 {
-    public interface IAuditableEntity
-    {
-        
-    }
+    string CreatedBy { get; set; }
+
+    DateTime CreatedOnUtc { get; set; }
+
+    string? ModifiedBy { get; set; }
+
+    DateTime? ModifiedOnUtc { get; set; }
 }
